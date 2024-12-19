@@ -1,0 +1,85 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fefefe;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(45deg, #FFDEE9, #B5FFFC); /* Dégradé pastel */
+    padding: 1em 2em;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar a {
+    text-decoration: none;
+    color: #555;
+    margin: 0 1em;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.navbar a:hover {
+    color: #333;
+}
+.etudes-section {
+    text-align: center;
+    padding: 2em;
+    background: linear-gradient(45deg, #FFFAE3, #E3F2FF); /* Couleurs pastel */
+}
+.etudes-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 1.5em;
+    color: #333;
+}
+.study-card {
+    display: flex;
+    margin: 1.5em auto;
+    padding: 1.5em;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+.card-content {
+    display: flex;
+    gap: 1.5em;
+}
+.study-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+.study-card img:hover {
+    transform: scale(1.1);
+}
+.study-info {
+    text-align: left;
+    font-size: 1.1em;
+    color: #555;
+}
+.study-info h4 {
+    margin: 0;
+    font-size: 1.4em;
+    color: #333;
+}
+.study-info p {
+    margin: 0.5em 0;
+}
+.study-info a {
+    color: #007BFF;
+    text-decoration: none;
+}
+.study-info a:hover {
+    text-decoration: underline;
+}
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #F8F9FA;
+    border-top: 1px solid #ddd;
+    color: #555;
+    font-size: 0.9em;
+}
